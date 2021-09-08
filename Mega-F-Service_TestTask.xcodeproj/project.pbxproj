@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D83CA28426E78254009F5477 /* Extension + UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83CA28326E78254009F5477 /* Extension + UIStackView.swift */; };
+		D83CA28726E7A75E009F5477 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83CA28626E7A75E009F5477 /* NetworkService.swift */; };
+		D83CA28B26E7AB3D009F5477 /* DevicesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83CA28A26E7AB3D009F5477 /* DevicesModel.swift */; };
+		D83CA28F26E7DFC2009F5477 /* NetworkDataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83CA28E26E7DFC2009F5477 /* NetworkDataFetch.swift */; };
+		D83CA29726E80C66009F5477 /* NetworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83CA29626E80C66009F5477 /* NetworkImage.swift */; };
 		D863458A26E75EBA0022A223 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D863458926E75EBA0022A223 /* AppDelegate.swift */; };
 		D863458C26E75EBA0022A223 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D863458B26E75EBA0022A223 /* SceneDelegate.swift */; };
-		D863458E26E75EBA0022A223 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D863458D26E75EBA0022A223 /* ViewController.swift */; };
-		D863459126E75EBA0022A223 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D863458F26E75EBA0022A223 /* Main.storyboard */; };
+		D863458E26E75EBA0022A223 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D863458D26E75EBA0022A223 /* MainViewController.swift */; };
 		D863459326E75EBF0022A223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D863459226E75EBF0022A223 /* Assets.xcassets */; };
 		D863459626E75EBF0022A223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D863459426E75EBF0022A223 /* LaunchScreen.storyboard */; };
+		D86345A026E76F980022A223 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D863459F26E76F980022A223 /* MainTableViewCell.swift */; };
+		D8903B8C26E77D9500832E11 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8903B8B26E77D9500832E11 /* Roboto-Regular.ttf */; };
+		D8E949F726E8B96C00ECFE4A /* SVGKit in Frameworks */ = {isa = PBXBuildFile; productRef = D8E949F626E8B96C00ECFE4A /* SVGKit */; };
+		D8E949F926E8B96C00ECFE4A /* SVGKitSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D8E949F826E8B96C00ECFE4A /* SVGKitSwift */; };
+		D8E949FB26E8CAF300ECFE4A /* DeleteAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E949FA26E8CAF300ECFE4A /* DeleteAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D83CA28326E78254009F5477 /* Extension + UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIStackView.swift"; sourceTree = "<group>"; };
+		D83CA28626E7A75E009F5477 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		D83CA28A26E7AB3D009F5477 /* DevicesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesModel.swift; sourceTree = "<group>"; };
+		D83CA28E26E7DFC2009F5477 /* NetworkDataFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetch.swift; sourceTree = "<group>"; };
+		D83CA29626E80C66009F5477 /* NetworkImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImage.swift; sourceTree = "<group>"; };
 		D863458626E75EBA0022A223 /* Mega-F-Service_TestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mega-F-Service_TestTask.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D863458926E75EBA0022A223 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D863458B26E75EBA0022A223 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D863458D26E75EBA0022A223 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D863459026E75EBA0022A223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D863458D26E75EBA0022A223 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D863459226E75EBF0022A223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D863459526E75EBF0022A223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D863459726E75EBF0022A223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D863459F26E76F980022A223 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		D8903B8B26E77D9500832E11 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		D8E949FA26E8CAF300ECFE4A /* DeleteAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAlert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +47,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8E949F926E8B96C00ECFE4A /* SVGKitSwift in Frameworks */,
+				D8E949F726E8B96C00ECFE4A /* SVGKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D83CA28226E7823D009F5477 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D83CA28326E78254009F5477 /* Extension + UIStackView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D83CA28526E7A733009F5477 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D83CA28626E7A75E009F5477 /* NetworkService.swift */,
+				D83CA28E26E7DFC2009F5477 /* NetworkDataFetch.swift */,
+				D83CA29626E80C66009F5477 /* NetworkImage.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		D863457D26E75EBA0022A223 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +92,68 @@
 		D863458826E75EBA0022A223 /* Mega-F-Service_TestTask */ = {
 			isa = PBXGroup;
 			children = (
+				D8E949FE26E8E3C600ECFE4A /* Application */,
+				D8903B8826E77D3200832E11 /* ViewControllers */,
+				D8903B8926E77D4000832E11 /* Models */,
+				D83CA28526E7A733009F5477 /* Network */,
+				D8903B8726E77D2D00832E11 /* Fonts */,
+				D83CA28226E7823D009F5477 /* Extensions */,
+				D8E949FF26E8E3ED00ECFE4A /* Resources */,
+			);
+			path = "Mega-F-Service_TestTask";
+			sourceTree = "<group>";
+		};
+		D8903B8726E77D2D00832E11 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D8903B8B26E77D9500832E11 /* Roboto-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D8903B8826E77D3200832E11 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D863458D26E75EBA0022A223 /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D8903B8926E77D4000832E11 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D8903B8A26E77D4A00832E11 /* Cells */,
+				D83CA28A26E7AB3D009F5477 /* DevicesModel.swift */,
+				D8E949FA26E8CAF300ECFE4A /* DeleteAlert.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D8903B8A26E77D4A00832E11 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D863459F26E76F980022A223 /* MainTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D8E949FE26E8E3C600ECFE4A /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				D863458926E75EBA0022A223 /* AppDelegate.swift */,
 				D863458B26E75EBA0022A223 /* SceneDelegate.swift */,
-				D863458D26E75EBA0022A223 /* ViewController.swift */,
-				D863458F26E75EBA0022A223 /* Main.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		D8E949FF26E8E3ED00ECFE4A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				D863459226E75EBF0022A223 /* Assets.xcassets */,
 				D863459426E75EBF0022A223 /* LaunchScreen.storyboard */,
 				D863459726E75EBF0022A223 /* Info.plist */,
 			);
-			path = "Mega-F-Service_TestTask";
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +172,10 @@
 			dependencies = (
 			);
 			name = "Mega-F-Service_TestTask";
+			packageProductDependencies = (
+				D8E949F626E8B96C00ECFE4A /* SVGKit */,
+				D8E949F826E8B96C00ECFE4A /* SVGKitSwift */,
+			);
 			productName = "Mega-F-Service_TestTask";
 			productReference = D863458626E75EBA0022A223 /* Mega-F-Service_TestTask.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +203,9 @@
 				Base,
 			);
 			mainGroup = D863457D26E75EBA0022A223;
+			packageReferences = (
+				D8E949F526E8B96C00ECFE4A /* XCRemoteSwiftPackageReference "SVGKit" */,
+			);
 			productRefGroup = D863458726E75EBA0022A223 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -124,9 +220,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8903B8C26E77D9500832E11 /* Roboto-Regular.ttf in Resources */,
 				D863459626E75EBF0022A223 /* LaunchScreen.storyboard in Resources */,
 				D863459326E75EBF0022A223 /* Assets.xcassets in Resources */,
-				D863459126E75EBA0022A223 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +233,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D863458E26E75EBA0022A223 /* ViewController.swift in Sources */,
+				D83CA28B26E7AB3D009F5477 /* DevicesModel.swift in Sources */,
+				D83CA28F26E7DFC2009F5477 /* NetworkDataFetch.swift in Sources */,
+				D83CA28726E7A75E009F5477 /* NetworkService.swift in Sources */,
+				D8E949FB26E8CAF300ECFE4A /* DeleteAlert.swift in Sources */,
+				D863458E26E75EBA0022A223 /* MainViewController.swift in Sources */,
 				D863458A26E75EBA0022A223 /* AppDelegate.swift in Sources */,
+				D86345A026E76F980022A223 /* MainTableViewCell.swift in Sources */,
 				D863458C26E75EBA0022A223 /* SceneDelegate.swift in Sources */,
+				D83CA29726E80C66009F5477 /* NetworkImage.swift in Sources */,
+				D83CA28426E78254009F5477 /* Extension + UIStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D863458F26E75EBA0022A223 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D863459026E75EBA0022A223 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D863459426E75EBF0022A223 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,7 +382,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Mega-F-Service_TestTask/Info.plist";
+				DEVELOPMENT_TEAM = 9J35TQ48R5;
+				INFOPLIST_FILE = "Mega-F-Service_TestTask/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,7 +391,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ya.skazal.gorbatiy.Mega-F-Service-TestTask";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,7 +401,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Mega-F-Service_TestTask/Info.plist";
+				DEVELOPMENT_TEAM = 9J35TQ48R5;
+				INFOPLIST_FILE = "Mega-F-Service_TestTask/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,7 +410,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ya.skazal.gorbatiy.Mega-F-Service-TestTask";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -339,6 +436,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D8E949F526E8B96C00ECFE4A /* XCRemoteSwiftPackageReference "SVGKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SVGKit/SVGKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D8E949F626E8B96C00ECFE4A /* SVGKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8E949F526E8B96C00ECFE4A /* XCRemoteSwiftPackageReference "SVGKit" */;
+			productName = SVGKit;
+		};
+		D8E949F826E8B96C00ECFE4A /* SVGKitSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8E949F526E8B96C00ECFE4A /* XCRemoteSwiftPackageReference "SVGKit" */;
+			productName = SVGKitSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D863457E26E75EBA0022A223 /* Project object */;
 }
